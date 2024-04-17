@@ -1,0 +1,362 @@
+/*Mq de tablet*/
+@media screen and (min-width: 600px) {
+  /*mq paginal principal*/
+  main .contenedor {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 40%);
+  }
+  main .img-dieciocho {
+    grid-column: span 2;
+  }
+  /*Mq de pagina dos*/
+  main .contenedor-dos {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 55%);
+  }
+  main .img-cinco {
+    grid-column: span 2;
+  }
+  main h1.textos-dos {
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+    margin: 40px 20px;
+    box-shadow: 5px 5px 10px #f5f5f5;
+  }
+  /*Mq de pagina tres*/
+  main .contenedor-tres {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 45%);
+  }
+  main .img-ocho {
+    grid-column: span 2;
+  }
+  /*Mq de pagina cuatro*/
+  main .contenedor-cuatro {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 45%);
+  }
+  main .img-once {
+    grid-column: span 2;
+  }
+  /*Mq de pagina 5*/
+  main .contenedor-cinco {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 45%);
+  }
+  main .img-quince {
+    grid-column: span 2;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /*Mq de pagina principal*/
+  main .contenedor {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 40%);
+  }
+  main .img-dieciocho {
+    grid-column: span 2;
+  }
+  /*mq pagina dos*/
+  main .contenedor-dos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 60%);
+  }
+  main .img-cinco {
+    grid-column: span 2;
+  }
+  main .textos-dos {
+    text-align: center;
+    color: #f5f5f5;
+    background-color: #000000;
+    margin: 40px 20px;
+    box-shadow: 5px 5px 10px #f5f5f5;
+  }
+  /*mq pagina tres*/
+  main .contenedor-tres {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 80%);
+  }
+  main .img-ocho {
+    grid-column: span 2;
+  }
+  /*mq de pagina cuatro*/
+  main .contenedor-cuatro {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 80%);
+  }
+  main .img-once {
+    grid-column: span 2;
+  }
+  /*mq de pagina cinco*/
+  main .contenedor-cinco {
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 80%);
+  }
+  main .img-quince {
+    grid-column: span 2;
+  }
+}
+/* Pseudoclases */
+/*pagina principal*/
+.img-dieciseis:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-diecisiete:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-dieciocho:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+/*pseudoclases pagina dos*/
+.img-tres:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-cuatro:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-cinco:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+/*pseudoclases pagina tres*/
+.img-seis:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-siete:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-ocho:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+/*pseudoclases pagina cuatro*/
+.img-nueve:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-diez:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-once:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+/*pseudoclases pagina cinco*/
+.img-trece:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-catorce:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+.img-quince:hover {
+  border-radius: 1px solid;
+  box-shadow: 2px 3px 4px #f5f5f5;
+}
+
+/* bootstrap */
+.color-bg:hover {
+  background-color: #8a2be2;
+}
+
+header {
+  background-color: #f5f5f5;
+  margin: 10px 10px;
+  padding: 20px 100px;
+  box-shadow: 5px 5px 15px #f5f5f5;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 5%;
+}
+header nav ul li a {
+  color: #f5f5f5;
+  list-style: none;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  background-color: #8a2be2;
+  text-shadow: #f5f5f5;
+  color: #000000;
+  font-size: 16px;
+}
+
+body {
+  color: #000000;
+  background-color: #8a2be2;
+}
+
+/* estilos main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+  flex-wrap: wrap;
+}
+
+main div h1 {
+  color: #f5f5f5;
+  background-color: #000000;
+  margin: 40px 20px;
+  padding: 10px 10px;
+  box-shadow: 5px 5px 10px #f5f5f5;
+}
+
+main .textos {
+  text-align: center;
+}
+main .textos h1 {
+  margin: 10px 0px;
+}
+main .textos h1 span {
+  display: block;
+}
+
+main .img {
+  display: flex;
+  justify-content: center;
+}
+
+main .textos .boton {
+  background-color: #000000;
+  color: #f5f5f5;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  box-shadow: 2px 3px 5px #f5f5f5;
+}
+
+main div img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* grid pagina principal*/
+main .contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 29%);
+  gap: 2rem;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: 30px 20px;
+}
+
+/* grid pagina 2 */
+main .contenedor-dos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 29%);
+  gap: 2rem;
+  object-fit: cover;
+  margin: 20px 10px;
+}
+main .contenedor-dos img {
+  width: 100%;
+  height: 100%;
+}
+
+main h1 .textos-dos {
+  text-align: center;
+  color: #f5f5f5;
+  background-color: #000000;
+  margin: 40px 20px;
+  box-shadow: 5px 5px 10px #f5f5f5;
+}
+
+/*grid pagina tres*/
+main .contenedor-tres {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 29%);
+  gap: 2rem;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: 30px 20px;
+}
+
+/* gird pagina cuatro */
+main .contenedor-cuatro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 29%);
+  gap: 2rem;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: 30px 20px;
+}
+
+/* grid pagina cinco*/
+main .contenedor-cinco {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 29%);
+  gap: 2rem;
+  object-fit: cover;
+  box-sizing: border-box;
+  margin: 30px 20px;
+}
+
+/* estilos de section */
+section {
+  background-color: #f5f5f5;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  margin: 40px 20px;
+  box-shadow: 5px 5px 15px #f5f5f5;
+}
+
+/* footer */
+footer p {
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=main.css.map */

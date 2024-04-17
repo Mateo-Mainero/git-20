@@ -1,0 +1,30 @@
+//header
+header {
+    background-color: $bg-color;
+    margin:10px 10px;
+    padding:20px 100px;
+    box-shadow: 5px 5px 15px $box-shadow ;
+    nav{
+        ul {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            gap: 5%;
+            li{
+                a{
+                    color: $color-ul-a;
+                    list-style: none;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: $hover-color;
+                        text-shadow: $text-shadow;
+                        color: $color-primario;
+                        font-size: 16px;
+                    }
+
+                }
+            }
+        }
+    }
+ }
