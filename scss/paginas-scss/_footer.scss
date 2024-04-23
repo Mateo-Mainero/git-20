@@ -1,9 +1,51 @@
  /* footer */
 
- footer{
+
+footer  {
+    color: var(--bg-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 15px 0;
+    padding: 15px;
+    background: $color-blue-violet;
+
+    
+    
+    
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 20px ;
+    margin: 40px 20px;
+    box-shadow: 2px 3px 15px $color-secundario;
+
+
+    animation-name: change-footer ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
     p{
-        text-align: center;
-        color: $color-primario;
-        font-size: 16px;
+        background: $color-secundario;
+        
     }
- }
+
+}
+ 
+@keyframes change-footer{
+   0%{
+    background: red;
+   }
+   50%{
+    background: green;
+   }
+   
+   100%{
+    background: blue;
+   }
+}
+

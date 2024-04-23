@@ -3,4 +3,14 @@
  body{
     color: $body-color;
     background-color: $body-bg-color;
- }
+    .header-announcement{
+      background-color: $color-secundario;
+      box-shadow: 1px 2px 3px $color-secundario; 
+      font-size: 12px;
+      text-align: center;
+     }
+
+    
+    }
+ 
+

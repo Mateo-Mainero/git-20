@@ -193,10 +193,15 @@
 }
 
 header {
+  background: -webkit-linear-gradient(270deg, rgb(0, 0, 128) 0%, rgb(74, 116, 1) 22%, rgb(9, 92, 144) 48%, rgb(2, 158, 255) 58%, rgb(19, 49, 131) 84%, rgb(1, 129, 14) 100%);
+  background: -moz-linear-gradient(90deg, rgb(0, 0, 128) 0%, rgb(74, 116, 1) 22%, rgb(9, 92, 144) 48%, rgb(2, 158, 255) 58%, rgb(19, 49, 131) 84%, rgb(1, 129, 14) 100%);
+  background: -ms-linear-gradient(90deg, rgb(0, 0, 128) 0%, rgb(74, 116, 1) 22%, rgb(9, 92, 144) 48%, rgb(2, 158, 255) 58%, rgb(19, 49, 131) 84%, rgb(1, 129, 14) 100%);
+  background: -o-linear-gradient(90deg, rgb(0, 0, 128) 0%, rgb(74, 116, 1) 22%, rgb(9, 92, 144) 48%, rgb(2, 158, 255) 58%, rgb(19, 49, 131) 84%, rgb(1, 129, 14) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 128) 0%, rgb(74, 116, 1) 22%, rgb(9, 92, 144) 48%, rgb(2, 158, 255) 58%, rgb(19, 49, 131) 84%, rgb(1, 129, 14) 100%);
   background-color: #f5f5f5;
   margin: 10px 10px;
   padding: 20px 100px;
-  box-shadow: 5px 5px 15px #f5f5f5;
+  box-shadow: 2px 3px 15px #f5f5f5;
 }
 header nav ul {
   display: flex;
@@ -219,6 +224,12 @@ header nav ul li a:hover {
 body {
   color: #000000;
   background-color: #8a2be2;
+}
+body .header-announcement {
+  background-color: #f5f5f5;
+  box-shadow: 1px 2px 3px #f5f5f5;
+  font-size: 12px;
+  text-align: center;
 }
 
 /* estilos main */
@@ -260,6 +271,11 @@ main .textos .boton {
   padding: 10px;
   display: inline-block;
   box-shadow: 2px 3px 5px #f5f5f5;
+}
+
+.boton a {
+  list-style: none;
+  text-decoration: none;
 }
 
 main div img {
@@ -343,20 +359,82 @@ section {
   text-align: center;
   padding: 20px;
   margin: 40px 20px;
-  box-shadow: 5px 5px 15px #f5f5f5;
+  box-shadow: 3px 3px 15px #f5f5f5;
+  border-radius: 5px;
 }
 
 /* footer */
+footer {
+  color: var(--bg-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 15px 0;
+  padding: 15px;
+  background: #8a2be2;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding: 20px;
+  margin: 40px 20px;
+  box-shadow: 2px 3px 15px #f5f5f5;
+  animation-name: change-footer;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 footer p {
-  text-align: center;
-  color: #000000;
-  font-size: 16px;
+  background: #f5f5f5;
 }
 
+@keyframes change-footer {
+  0% {
+    background: red;
+  }
+  50% {
+    background: green;
+  }
+  100% {
+    background: blue;
+  }
+}
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px solid white;
+  background: #8a2be2;
+  animation-name: change-color;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.box:hover {
+  background: #8a2be2;
+}
+
+@keyframes change-color {
+  0% {
+    background: #8a2be2;
+  }
+  25% {
+    background: green;
+  }
+  75% {
+    background: indigo;
+  }
+  100% {
+    background: red;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
