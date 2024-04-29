@@ -1,21 +1,22 @@
 //header
 header {
-    background: -webkit-linear-gradient($color-linea-uno);
-    background: -moz-linear-gradient($color-linea-dos);
-    background: -ms-linear-gradient($color-linea-tres);
-    background: -o-linear-gradient($color-linea-cuatro);
-    background: linear-gradient($color-linea-cinco);
     background-color: $bg-color;
     margin:10px 10px;
-    padding:20px 100px;
-    box-shadow: 2px 3px 15px $box-shadow ;
+    
+    box-shadow: 5px 5px 10px $box-shadow;
+
+    
+   
+  
+    
     
     nav{
         ul {
-            display: flex;
+            display: grid;
             list-style: none;
             text-decoration: none;
-            gap: 5%;
+            gap: 5%; 
+            justify-content: space-between;
             li{
                 a{
                     color: $color-ul-a;

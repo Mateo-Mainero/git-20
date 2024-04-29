@@ -25,27 +25,62 @@ footer  {
 
 
     animation-name: change-footer ;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
-    p{
-        background: $color-secundario;
-        
-    }
-
+  
 }
  
 @keyframes change-footer{
    0%{
+    background: white;
+   }
+   15%{
     background: red;
    }
-   50%{
+   20%{
     background: green;
    }
-   
-   100%{
+   25%{
     background: blue;
    }
+   30%{
+    background: skyblue;
+   }
+   40%{
+    background: turquoise;
+   }
+   50%{
+    background: violet;
+   }
+   55%{
+    background: pink;
+   }
+   60%{
+    background: yellow;
+   }
+   65%{
+    background: orange;
+   }
+   
+   70%{
+    background: lightgreen;
+   }
+   75%{
+    background: purple;
+   }
+   80%{
+    background: darkorange;
+   }
+   90%{
+    background: darkgreen;
+   }
+   100%{
+    background: darkorange;
+   }
+   
+
 }
+
 
