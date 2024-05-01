@@ -1,11 +1,13 @@
  // import fonts
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
  // import utilidades
  @import "utilidades/variables";
  @import "utilidades/mixin.scss";
  @import "utilidades/animation";
+ @import "utilidades/mapas";
  
  // import componentes
  @import "componentes/mq";
