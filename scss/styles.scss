@@ -1,8 +1,8 @@
-// import fonts
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ // import fonts
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
-// import utilidades
+ // import utilidades
  @import "utilidades/variables";
  @import "utilidades/mixin.scss";
  @import "utilidades/animation";
@@ -12,22 +12,15 @@
  @import "componentes/pseudoclases";
  @import "componentes/bootstrap";
 
-//import paginas-scss
+ //import paginas-scss
  @import "paginas-scss/header";
  @import "paginas-scss/body";
  @import "paginas-scss/main";
-@import "paginas-scss/section";
-@import "paginas-scss/footer";
-@import "paginas-scss/reset";
-
- 
+ @import "paginas-scss/section";
+ @import "paginas-scss/footer";
+ @import "paginas-scss/reset";
 
 
-
-
- 
-
- 
 
 
 
