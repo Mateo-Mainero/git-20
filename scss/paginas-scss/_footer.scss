@@ -28,10 +28,10 @@ footer  {
     animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    
 
-  
 }
- 
+
 @keyframes change-footer{
    0%{
     background: white;
@@ -63,7 +63,6 @@ footer  {
    65%{
     background: orange;
    }
-   
    70%{
     background: lightgreen;
    }
@@ -79,7 +78,7 @@ footer  {
    100%{
     background: darkorange;
    }
-   
+
 
 }
 
