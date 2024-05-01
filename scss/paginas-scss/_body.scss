@@ -4,7 +4,7 @@
     color: $body-color;
     background-color: $body-bg-color;
     font-family: $font-roboto;
-    background-image: url(../imagen/fondo-de-pantalla-prin.jpg);
+    background-image:linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(../imagen/fondo-de-pantalla-prin.jpg);
     background-size: cover;
     background-position: center;
     .header-announcement{
