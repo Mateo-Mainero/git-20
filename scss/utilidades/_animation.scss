@@ -48,3 +48,24 @@
         transform: translateX(20px);
     }
 }
+
+.dc-batman{
+    @include medidas (6rem, auto);
+    animation: 
+    change-batman 5s infinite alternate,
+    move-batman 5s infinite alternate;
+  
+    }
+    
+  
+  
+  @keyframes move-batman{
+    0%{
+      transform: translateX(20px);
+  }
+  100%{
+      transform: translateX(247px);
+  }
+  }
+  
+  

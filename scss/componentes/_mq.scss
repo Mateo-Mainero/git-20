@@ -31,6 +31,10 @@
         grid-column: span 2;
     }
  }
+ .textos-tres{
+    padding: 0px 80px;
+     margin:  1px;
+    }
 
  main{
     h1.textos-dos{
@@ -51,6 +55,10 @@
         grid-template-rows: repeat(2, 45%);
     }
  }
+ .textos-tres{
+    padding: 0px 80px;
+     margin:  1px;
+    }
 
  main{
     .img-ocho{
@@ -103,6 +111,10 @@
     /*Mq de pagina principal*/
    
     main{
+        .textos{
+            padding:0px 90px;
+            margin:0px 67px;
+        }
         .contenedor{
             height: 90vh;
             grid-template-columns: repeat(2,1fr);
@@ -118,6 +130,10 @@
     /*mq pagina dos*/
 
     main{
+        .textos-tres{
+            padding: 0px 90px;
+            margin: 83px;
+           }
         .contenedor-dos{
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 60%);
@@ -129,6 +145,7 @@
         grid-column: span 2;
     }
    }
+ 
    main {
     .textos-dos{
         text-align: center;
@@ -142,16 +159,23 @@
    /*mq pagina tres*/
 
    main{
+  
     .contenedor-tres{
         height: 90vh;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2,80%);
+        
+        
     }
    }
    main{
     .img-ocho{
         grid-column: span 2;
     }
+   }
+   .textos-tres{
+    padding: 0px 90px;
+    margin:68px;
    }
 
    /*mq de pagina cuatro*/

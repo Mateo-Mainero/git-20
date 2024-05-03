@@ -1,37 +1,41 @@
-/* estilos header*/
-header {
-    background-color: $bg-color;
-    margin:10px 10px;
+/*NAV BAR */
+
+.navbar {
+    display: flex;
+    margin: 10px 10px;
+    background-color:$color-secundario;
     box-shadow: 5px 5px 10px $box-shadow;
-
-    nav{
-        ul {
-            display: grid;
-            list-style: none;
-            text-decoration: none;
-            gap: 5%; 
-            justify-content: space-between;
-            li{
-                a{
-                    color: $color-ul-a;
-                    list-style: none;
-                    text-decoration: none;
-
-                    &:hover {
-                        background-color: $hover-color;
-                        text-shadow: $text-shadow;
-                        color: $color-primario;
-                        font-size: 16px;
-                    }
-
-                }
-            }
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    
+    
+    border-bottom: 2px solid $color-secundario;
+    .logo{
+      @include medidas (3rem, 3rem);
+      margin: 10px 0px 0px 10px;  
+    }
+  
+    .nav-links {
+      display: flex;
+      list-style: none;
+  
+      li {
+        margin-right: 20px;
+        
+        a {
+          text-decoration: none;
+          color: $color-primario;
+          
+          &:hover {
+            background-color:$color-blue-violet;
+            color: $color-secundario;
+          }
         }
+      }
     }
  }
+        
 
- .navbar-brand{ 
-    img{
-    @include medidas (auto, 3rem) 
- }
-}
+
+  
